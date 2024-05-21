@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #a9dced;
+}
+
+header {
+    background-color: rgb(59, 132, 215);
+    color: #f3ecec;
+    text-align: center;
+    padding: 20px 0;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.container {
+    background-color: #7ed5f1; /* Azul bebê */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+h1
+h2 {
+    color: #000000;
+}
+
+p {
+    color: #100f0f;
+}
+
+button {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    background-color: #40abe0;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: rgb(59, 132, 215);
+}
+
+footer {
+    background-color:  rgb(59, 132, 215);
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

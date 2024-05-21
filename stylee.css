@@ -1,0 +1,55 @@
+/* Estilos básicos */
+body {
+    
+    margin: 0;
+    padding: 0;
+    background-color: #0b37a5;
+    background-image: url(imagens/biblio.jpg);
+    background-size: 60vw 100vh; /* Reduzir a largura para 60% da viewport e manter a altura como 100% */
+    background-repeat: no-repeat;
+    background-position: center bottom 20%; /* Centralizar a imagem horizontalmente, posicioná-la no rodapé e mover 20% para cima */
+    height: 100vh; /* Definir altura do corpo como 100% da viewport */
+}
+
+header {
+    background-color: #3d7ace;
+    color: white;
+    font-family: 'Lora', serif;
+    padding: 20px;
+    text-align: center;
+
+}
+
+header img {
+    width: 100px;
+    margin-right: 20px;
+}
+
+nav {
+    background-color: #060606;
+    text-align: center;
+    padding: 10px 0;
+}
+
+nav a {
+    color: rgb(241, 231, 231);
+    text-decoration: none;
+    margin: 0 20px;
+    font-size: 18px; /* Aumenta o tamanho da fonte */
+    position: relative;
+}
+
+nav a:not(:last-child):after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    right: -15px; /* Ajuste fino da posição da linha */
+    transform: translateY(-50%);
+    height: 80%; 
+    width: 1px; 
+    background-color: white; 
+}
+
+section {
+    padding: 20px;
+    color: white; }
